@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module cursive.leiningen.project.LeiningenProjectsManager.displayName="aoc-2020:0.1.0-SNAPSHOT" cursive.leiningen.project.LeiningenProjectsManager.isLeinModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

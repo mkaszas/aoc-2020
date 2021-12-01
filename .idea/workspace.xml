@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d195fbbe-6fc7-4efe-a858-2b76a0c059d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kvDIFBmBaCfyZZOcnMknRapyKO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToNamespace.includeLibraries" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="cursive.last.file.extension./Users/mate/sandbox/clj/aoc-2020/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1609187011887">{:repl-history {:ide [], :local [{:command &quot;(conj [2 3 4] 1)&quot;, :offset 16, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(merge-expr [:number 1] {:op '+ :clause [:number 2]})&quot;, :offset 53, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(fix-order [{:op +, :clause [:number 2]}\n            {:op *, :clause [:number 3]}\n            {:op +, :clause [:number 4]}\n            {:op *, :clause [:number 5]}\n            {:op +, :clause [:number 6]}])&quot;, :offset 206, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(drop 1 [1 2 3])&quot;, :offset 16, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(fix-order [{:op '+, :clause [:number 2]}\n            {:op '*, :clause [:number 3]}\n            {:op '+, :clause [:number 4]}\n            {:op '*, :clause [:number 5]}\n            {:op '+, :clause [:number 6]}])&quot;, :offset 211, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(eval-group-b (s/conform ::group (read-string \&quot;(1 + 2 * 3 + 4 * 5 + 6)\&quot;)))&quot;, :offset 74, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(eval-group-b (s/conform ::group (read-string \&quot;(1 + (2 * 3) + (4 * (5 + 6)))\&quot;)))&quot;, :offset 80, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(eval-group-b (s/conform ::group (read-string \&quot;(2 * 3 + (4 * 5))\&quot;)))&quot;, :offset 68, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(eval-group-b (s/conform ::group (read-string \&quot;(5 + (8 * 3 + 9 + 3 * 4 * 3))\&quot;)))&quot;, :offset 80, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(read-string \&quot;(5 + (8 * 3 + 9 + 3 * 4 * 3))\&quot;)&quot;, :offset 45, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(first (read-string \&quot;(5 + (8 * 3 + 9 + 3 * 4 * 3))\&quot;))&quot;, :offset 53, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(drop 1 (read-string \&quot;(5 + (8 * 3 + 9 + 3 * 4 * 3))\&quot;))&quot;, :offset 54, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(partition 2 (drop 1 (read-string \&quot;(5 + (8 * 3 + 9 + 3 * 4 * 3))\&quot;)))&quot;, :offset 68, :ns &quot;aoc-2020.day18&quot;} {:command &quot;(str/replace \&quot;1: \\\&quot;a\\\&quot;\&quot; #\&quot;(\\d+): \\\&quot;?(.*)\\\&quot;?$\&quot; \&quot;[$1 \\\&quot;$2\\\&quot;]\&quot;)&quot;, :offset 60, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(str/replace \&quot;1: \\\&quot;a\\\&quot;\&quot; #\&quot;(\\d+): \\\&quot;?([^\\\&quot;])\\\&quot;?$\&quot; \&quot;[$1 \\\&quot;$2\\\&quot;]\&quot;)&quot;, :offset 63, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(read-string \&quot;[1 \\\&quot;a\\\&quot;]\&quot;)&quot;, :offset 25, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(str/replace \&quot;1: 4 1 5\&quot; #\&quot;(\\d+): \\\&quot;?([^\\\&quot;])\\\&quot;?$\&quot; \&quot;[$1 \\\&quot;$2\\\&quot;]\&quot;)&quot;, :offset 63, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(resolve-rules {0 \&quot;a\&quot; 1 \&quot;b\&quot;})&quot;, :offset 29, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-matches #\&quot;\\d+\&quot; \&quot;1 | 3\&quot;)&quot;, :offset 27, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(every? char? \&quot;abc\&quot;)&quot;, :offset 20, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(every? char? \&quot;1 | 3\&quot;)&quot;, :offset 22, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;a|b\&quot; \&quot;a\&quot;)&quot;, :offset 19, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;a|b\&quot; \&quot;1 | 3\&quot;)&quot;, :offset 23, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(str/split \&quot;1 2 4 | 3 1 2\&quot; #\&quot;|\&quot;)&quot;, :offset 32, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(str/split \&quot;1 2 4 | 3 1 2\&quot; #\&quot;\\|\&quot;)&quot;, :offset 33, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(str/split \&quot;1 2 4 | 3 1 2\&quot; #\&quot; \\| \&quot;)&quot;, :offset 35, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(-&gt;&gt; [[\&quot;aba\&quot; \&quot;a|ba\&quot; \&quot;abb\&quot;] [\&quot;aa\&quot; \&quot;b\&quot;]]\n     (map #(map (fn [s] (format \&quot;(%s)\&quot; s)) %))\n     (map str/join)\n     (str/join \&quot;|\&quot;))&quot;, :offset 126, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(resolve-rules {0 \&quot;4 1 5\&quot;, 1 \&quot;2 3 | 3 2\&quot;, 2 \&quot;4 4 | 5 5\&quot;, 3 \&quot;4 5 | 5 4\&quot;, 4 \&quot;a\&quot;, 5 \&quot;b\&quot;})&quot;, :offset 86, :ns &quot;aoc-2020.day19&quot;} {:command &quot;((resolve-rules {0 \&quot;4 1 5\&quot;, 1 \&quot;2 3 | 3 2\&quot;, 2 \&quot;4 4 | 5 5\&quot;, 3 \&quot;4 5 | 5 4\&quot;, 4 \&quot;a\&quot;, 5 \&quot;b\&quot;}) 0)&quot;, :offset 90, :ns &quot;aoc-2020.day19&quot;} {:command &quot;@((resolve-rules {0 \&quot;4 1 5\&quot;, 1 \&quot;2 3 | 3 2\&quot;, 2 \&quot;4 4 | 5 5\&quot;, 3 \&quot;4 5 | 5 4\&quot;, 4 \&quot;a\&quot;, 5 \&quot;b\&quot;}) 0)&quot;, :offset 91, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;aba$\&quot; \&quot;aba\&quot;)&quot;, :offset 22, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;aba$\&quot; \&quot;abaf\&quot;)&quot;, :offset 23, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(format \&quot;(%s)(%s)\&quot; 1 2)&quot;, :offset 23, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(format \&quot;(%1$s)(%2$s)\&quot; 1 2)&quot;, :offset 27, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(format \&quot;(%1$s)((%1$s)(%2$s))*(%2$s)\&quot; 1 2)&quot;, :offset 42, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;^(?&lt;g12&gt;(a)\\k'g12'*(b))$\&quot; \&quot;aabb\&quot;)&quot;, :offset 43, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;^(?&lt;g12&gt;(a)\\k&lt;g12&gt;*(b))$\&quot; \&quot;ab\&quot;)&quot;, :offset 41, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;^(?&lt;g12&gt;(a)\\k&lt;g12&gt;*(b))$\&quot; \&quot;aabb\&quot;)&quot;, :offset 43, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(re-seq #\&quot;^(?&lt;g12&gt;(ab)|((a)\\g&lt;g12&gt;(b)))$\&quot; \&quot;aabb\&quot;)&quot;, :offset 49, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(format \&quot;(?&lt;g12&gt;((%1$s)(%2$s))|((%1$s)\\g&lt;g12&gt;(%2$s)))\&quot; 1 2)&quot;, :offset 59, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(format \&quot;(?&lt;g12&gt;((%1$s)(%2$s))|((%1$s)\\\\g&lt;g12&gt;(%2$s)))\&quot; 1 2)&quot;, :offset 60, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(println (format \&quot;(?&lt;g12&gt;((%1$s)(%2$s))|((%1$s)\\\\g&lt;g12&gt;(%2$s)))\&quot; 1 2))&quot;, :offset 70, :ns &quot;aoc-2020.day19&quot;} {:command &quot;(apply mapv vector [[1 2 3] [4 5 6] [7 8 9]])&quot;, :offset 45, :ns &quot;aoc-2020.core&quot;} {:command &quot;(get-input)&quot;, :offset 11, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(Integer/parseInt \&quot;100101\&quot; 2)&quot;, :offset 29, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(Integer/parseInt \&quot;101011\&quot; 2)&quot;, :offset 29, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(Integer/parseInt \&quot;101001\&quot; 2)&quot;, :offset 29, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(Integer/parseInt \&quot;111101\&quot; 2)&quot;, :offset 25, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply mapv vector [[1 4 7] [2 5 8] [3 6 9]])&quot;, :offset 45, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply map list [[1 2 3] [4 5 6] [7 8 9]])&quot;, :offset 42, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply map list (apply map list [[1 2 3] [4 5 6] [7 8 9]]))&quot;, :offset 16, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply mapv vector (reverse [[1 4 7] [2 5 8] [3 6 9]]))&quot;, :offset 55, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply mapv vector (reverse [[1 2 3] [4 5 6] [7 8 9]]))&quot;, :offset 55, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(apply vector \&quot;abc\&quot;)&quot;, :offset 20, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(mapv reverse [[1 2 3] [4 5 6] [7 8 9]])&quot;, :offset 37, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(mapv #(apply vector (reverse %)) [[1 2 3] [4 5 6] [7 8 9]])&quot;, :offset 60, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; [[1 2 3] [4 5 6] [7 8 9]] rotate rotate rotate)&quot;, :offset 52, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; [[1 2 3] [4 5 6] [7 8 9]] rotate rotate rotate rotate)&quot;, :offset 59, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; [[1 2 3] [4 5 6] [7 8 9]] flip flip)&quot;, :offset 41, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; [[1 2 3] [4 5 6] [7 8 9]] flip)&quot;, :offset 36, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(parse (get-input))&quot;, :offset 19, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(edge [[1 2 3] [4 5 6] [7 8 9]] :top)&quot;, :offset 37, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(edge [[1 2 3] [4 5 6] [7 8 9]] :right)&quot;, :offset 39, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(edge [[1 2 3] [4 5 6] [7 8 9]] :bottom)&quot;, :offset 40, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(edge [[1 2 3] [4 5 6] [7 8 9]] :left)&quot;, :offset 38, :ns &quot;aoc-2020.day20&quot;} {:command &quot;((repeatedly 5 inc) 1)&quot;, :offset 22, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(repeatedly 5 inc 1)&quot;, :offset 20, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(orient [[1 2 3] [4 5 6] [7 8 9]] [2 0])&quot;, :offset 40, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(orient [[1 2 3] [4 5 6] [7 8 9]] [2 1])&quot;, :offset 40, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(all-orientations [[1 2 3] [4 5 6] [7 8 9]])&quot;, :offset 44, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(map #(edge % :left) (all-orientations [[1 2 3] [4 5 6] [7 8 9]]))&quot;, :offset 66, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[9 8 7] [0 0 0] [0 0 0]])&quot;, :offset 59, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[9 8 7] [0 0 0] [0 0 0]] :left)&quot;, :offset 65, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[9 8 7] [0 0 0] [0 0 0]] :bottom)&quot;, :offset 67, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[0 0 0] [0 0 0] [0 0 0]] :bottom)&quot;, :offset 40, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[0 0 0] [0 0 0] [7 8 0]] :bottom)&quot;, :offset 56, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[0 0 0] [0 0 0] [7 8 9]] :bottom)&quot;, :offset 56, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(find-neighbour [[1 2 3] [4 5 6] [7 8 9]] {1 [[0 0 0] [0 0 0] [0 0 0]] 2 [[1 2 3] [0 0 0] [0 0 0]]})&quot;, :offset 100, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(neighbours [[1 2 3] [4 5 6] [7 8 9]] {1 [[0 0 0] [0 0 0] [0 0 0]] 2 [[1 2 3] [0 0 0] [0 0 0]]})&quot;, :offset 12, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (parse (get-input)))&quot;, :offset 25, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (map #(count (neighbours % inp)) tiles))&quot;, :offset 96, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (map (fn [[id t]] (vector id (count (neighbours t inp)))) inp))&quot;, :offset 119, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (-&gt;&gt; (map (fn [[id t]] (vector id (count (neighbours t inp)))) inp)\n       (filter #(= 3 (first %)))))&quot;, :offset 158, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (-&gt;&gt; (map (fn [[id t]] (vector id (count (neighbours t inp)))) inp)\n       (filter #(= 3 (second %)))))&quot;, :offset 159, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (-&gt;&gt; (map (fn [[id t]] (vector id (count (neighbours t inp)))) inp)\n       (filter #(= 3 (second %)))\n       (map first)))&quot;, :offset 178, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(let [inp (parse (get-input))\n      tiles (vals inp)]\n  (-&gt;&gt; (map (fn [[id t]] (vector id (count (neighbours t inp)))) inp)\n       (filter #(= 3 (second %)))\n       (map first)\n       (reduce *)))&quot;, :offset 196, :ns &quot;aoc-2020.day20&quot;} {:command &quot;map-indexed&quot;, :offset 11, :ns &quot;aoc-2020.day20&quot;} {:command &quot;\&quot;\&quot;&quot;, :offset 2, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(a)&quot;, :offset 3, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (slurp \&quot;input/20b\&quot;)\n     read-string\n     (map (fn [k v] (filter #(not= k %) v))))&quot;, :offset 87, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (slurp \&quot;input/20b\&quot;)\n     read-string\n     ;(map (fn [k v] (filter #(not= k %) v)))\n     )&quot;, :offset 94, :ns &quot;aoc-2020.day20&quot;} {:command &quot;k v&quot;, :offset 3, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (slurp \&quot;input/20b\&quot;)\n     read-string\n     (map (fn [[k v]] (filter #(not= k %) v)))\n     )&quot;, :offset 95, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (slurp \&quot;input/20b\&quot;)\n     read-string\n     (map (fn [[k v]] (vector k (filter #(not= k %) v))))\n     )&quot;, :offset 106, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(-&gt;&gt; (slurp \&quot;input/20b\&quot;)\n     read-string\n     (map (fn [[k v]] (vector k (filter #(not= k %) v))))\n     (into {}))&quot;, :offset 115, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(b-input)&quot;, :offset 9, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[3 2 1] [4 5 6] [7 8 9]] :top)&quot;, :offset 64, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(match [[1 2 3] [4 5 6] [7 8 9]] [[3 2 1] [4 5 6] [7 8 9]] :left)&quot;, :offset 65, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(defn b []\n  (let [tile-map (parse (get-input))\n        neighbour-map (b-input)\n        first-corner (first (filter #(= 2 (count (second %))) neighbour-map))\n        corner (flip (get tile-map (first first-corner)))]\n    (next-mat corner :right (map tile-map (second first-corner)))))&quot;, :offset 284, :ns &quot;aoc-2020.day20&quot;} {:command &quot;(b)&quot;, :offset 3, :ns &quot;aoc-2020.day22&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.Unnamed">
+    <configuration name="Unnamed (1)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (2)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-2" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (3)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-3" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (4)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-4" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (5)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-5" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (6)" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020-7" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure REPL.Unnamed" />
+      <item itemvalue="Clojure REPL.Unnamed (1)" />
+      <item itemvalue="Clojure REPL.Unnamed (2)" />
+      <item itemvalue="Clojure REPL.Unnamed (3)" />
+      <item itemvalue="Clojure REPL.Unnamed (4)" />
+      <item itemvalue="Clojure REPL.Unnamed (5)" />
+      <item itemvalue="Clojure REPL.Unnamed (6)" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/dev/advertiser-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/dev/insights-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/dev/management-api-gcp" value="PREVIEW" />
+        <entry key="$USER_HOME$/dev/management-service-gcp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scala/scala-cats/cats-sandbox" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d195fbbe-6fc7-4efe-a858-2b76a0c059d5" name="Default Changelist" comment="" />
+      <created>1606572089949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606572089949</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="547" y="301" width="698" height="518" key="find.popup" timestamp="1635686099611">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="547" y="301" width="698" height="518" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1635686099611" />
+  </component>
+</project>

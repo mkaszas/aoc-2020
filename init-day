@@ -1,0 +1,5 @@
+#!/bin/sh
+
+FILE_LOC="./input/$1"
+
+curl "https://adventofcode.com/2020/day/$1/input" -b $AOC_COOKIE > $FILE_LOC
